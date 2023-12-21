@@ -1,0 +1,15 @@
+{
+  "name": "getlatest",
+  "version": "1.0.0",
+  "description": "Get latest tracks from Last.fm using DigitalOcean serverless functions.",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

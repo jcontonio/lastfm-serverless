@@ -1,0 +1,23 @@
+parameters: {}
+environment: {
+  LASTFM_KEY: ${LASTFM_KEY},
+  LASTFM_URL: ${LASTFM_URL},
+  LASTFM_USER: ${LASTFM_USER}
+}
+packages:
+    - name: last.fm
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: getLatest
+          binary: false
+          main: ""
+          runtime: nodejs:18
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
